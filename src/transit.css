@@ -1,0 +1,64 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+}
+
+.shuttleContainer {
+    margin-top: 8vh;
+}
+
+.icon {
+    height: 4vh;
+    width: 9vw;
+    margin-right: 1vw;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleNameBus {
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    direction: rtl;
+}
+
+.textContainer>div {
+    flex-basis: 20ch;
+    flex-shrink: 0;
+}
+
+.shuttleTitle, .insideTitle {
+    height: 6vh;
+    width: 22vw;
+    margin-top: 1vh;
+}
+
+.outsideTitle {
+    height: 7vh;
+    width: 25vw;
+}
+
+.shuttleText, .insideText, .outsideText {
+    width: 40vw;
+    margin-right: 5vw;
+    font-size: 1.7vh;
+    font-weight: 600;
+    direction: rtl;
+}
+
+.shuttlePic {
+    position: relative;
+    right: 38vw;
+    height: 30vh;
+}

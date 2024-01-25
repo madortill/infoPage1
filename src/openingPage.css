@@ -1,0 +1,51 @@
+.openContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 86vh;
+    position: relative;
+    justify-content: space-between;
+}
+.topContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 3vh;
+    height: 21vh;
+    width: 95vw;
+}
+
+.logo {
+    margin-top: 2vh;
+    height: 19vh;
+}
+
+.slogan {
+    color: white;
+    margin-top: 3vh;
+    width: 55vw;
+}
+
+.arrow {
+    color: white;
+    width: 10vw;
+}
+
+.arrowAni {
+    animation: down 1.25s infinite;
+}
+
+@keyframes down {
+    0% {
+        transform: translate(0, 1vh);
+    }
+    50% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, 1vh);
+    }
+} 

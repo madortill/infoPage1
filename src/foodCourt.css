@@ -1,0 +1,92 @@
+.icon {
+    height: 4vh;
+    width: 9vw;
+}
+
+.foodContainer {
+    position: relative;
+}
+
+.titleFood {
+    font-size: 4vh;
+    font-weight: 700;
+    margin-left: 1vw;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.lunchPic {
+    position: relative;
+    left: 22vw;
+    height: 49vw;
+}
+
+.genericText {
+    position: relative;
+    bottom: 20vh;
+    right: 53vw;
+    width: 40vw;
+    margin-left: 4vw;
+    font-size: 1.7vh;
+    font-weight: 600;
+    direction: rtl;
+}
+
+.titleName {
+    height: 6vh;
+    width: 22vw;
+}
+
+.middleText, .kosherText {
+    width: 45vw;
+    margin-right: 5vw;
+    font-size: 1.7vh;
+    font-weight: 600;
+    direction: rtl;
+}
+
+.openText {
+    width: 25vw;
+    margin-right: 5vw;
+    font-size: 1.7vh;
+    font-weight: 600;
+    direction: rtl;
+}
+
+.textContainerFood {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    direction: rtl;
+    position: relative;
+    bottom: 14vh;
+}
+
+.textContainerFood>div {
+    flex-basis: 20ch;
+    flex-shrink: 0;
+}
+
+.kosherPic {
+    height: 5vh;
+    width: 8vw;
+}
+
+p {
+    padding: 0;
+    margin: 1vw;
+}
+
+.backArrow {
+    width: 8vw;
+    position: absolute;
+    left: 2vw;
+    top: 2vh;
+    transform: rotate(90deg);
+}

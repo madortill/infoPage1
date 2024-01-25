@@ -1,0 +1,50 @@
+.healthContainer {
+    margin-top: 2vh;
+    height: 135vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.healthIcon {
+    height: 4vh;
+    width: 10vw;
+    margin-right: 1vw;
+}
+
+.titleNameHealth {
+    font-size: 4vh;
+    font-weight: 700;
+    margin-left: 1vw;
+}
+
+.dentistText, .medicText, .centerText {
+    font-size: 1.7vh;
+    font-weight: 600;
+    direction: rtl;
+    margin-right: 5vw;
+    width: 60vw;
+}
+
+.healthTextContainer {
+    margin-right: 8vw;
+}
+
+p {
+    margin: 0;
+}
+
+.backArrow {
+    width: 8vw;
+    position: absolute;
+    left: 2vw;
+    top: 2vh;
+    transform: rotate(90deg);
+}
+
+.baseLastPic {
+    height: 55vh;
+    width: 130vw;
+    position: relative;
+    left: 25vw;
+    bottom: 10vh;
+}
