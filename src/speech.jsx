@@ -6,7 +6,7 @@ import { forwardRef } from 'react';
 
 const Speech = forwardRef((props, ref) => {
     return (
-        <div className='body' ref={ref}>
+        <div className='bodySpeech' ref={ref}>
             <img src={IntroSpeech} alt="speech" className='speech' />
             <img src={Building} alt="building" className='building' />
         </div>
